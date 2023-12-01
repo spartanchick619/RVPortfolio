@@ -5,7 +5,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import Projects from "./Components/Projects";
-import Serivces from "./Components/Serivces";
+import Services from "./Components/Services";
 import { BallTriangle } from "react-loader-spinner";
 
 const App = () => {
