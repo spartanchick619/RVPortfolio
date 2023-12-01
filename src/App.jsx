@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import About from "./Components/About";
 import Banner from "./Components/Banner";
-import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import Projects from "./Components/Projects";
-import Services from "./Components/Services";
+import Skills from "./Components/Skills";
 import { BallTriangle } from "react-loader-spinner";
 
 const App = () => {
@@ -38,9 +37,8 @@ const App = () => {
             <Nav />
             <Banner />
             <About />
-            <Serivces />
             <Projects />
-            <Contact />
+            <Skills />
             <Footer />
           </div>
       }
